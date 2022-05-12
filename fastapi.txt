@@ -1,2 +1,8 @@
-py -3 -m venv venv(new virtual environment name)
-venv\Scripts\activate.bat
+py -3 -m venv venv(new virtual environment name)[create new virtual environment]
+
+venv\Scripts\activate.bat[starting virtual environment]
+
+uvicorn main:app(starting the server and calling the app in main.py)[developer environment]
+uvicorn main:app --reload[production environment]
+
+
